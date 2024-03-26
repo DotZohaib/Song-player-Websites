@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: rgb(235, 37, 172);
+  }
+  .login {
+    background-color: aqua;
+    margin-top: 23px;
+  }
+  .sign {
+    list-style: none;
+    display: flex;
+    font-size: 27px;
+    align-items: center;
+  }
+  .sign li {
+    padding: 0;
+    position: relative; /* Added to position sub-menu relative to parent */
+  }
+  .sign li a {
+    text-decoration: none;
+    padding: 22px;
+    margin: 23px;
+  }
+  .sign ul {
+    display: none; /* Hide sub-menu by default */
+    position: absolute; /* Position sub-menu absolutely */
+    top: 100%; /* Position below the parent */
+    left: 0;
+    background-color: rgb(148, 226, 103);
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    border-radius: 12px;
+    font-size: 40px;
+    width: 100%;
+    align-items: center;
+  }
+  .sign li:hover ul {
+    display: block; /* Display sub-menu on parent hover */
+  }
+  .song img {
+    width: 68px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    padding: 12px;
+    border-radius: 27px;
+  }
+  .file{
+    font-style: italic;
+    font-size: 40px;
+    align-items: center;
+    margin-top: 17px;
+    justify-content: center;
+    display: flex;
+    
+
+  }
+  .song {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    font-size: 30px;
+  }
+  .search {
+    margin-left: 200px;
+    font-size: 40px;
+  }
+
+  #search {
+    color: blue;
+  }
+
+  .btn-sm {
+    background-color: purple;
+    color: yellow;
+    font-size: 20px;
+    width: auto;
+    border-radius: 8px;
+  }
+  .container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    margin: 25px auto;
+    display: flex;
+    width: 75%;
+    border-radius: 22px;
+    background: url('img/young-attractive-fitness-girl-jogging.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .botton{
+    position: sticky;
+    height: 140px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .icons{
+    margin-top: 16px;
+  }
+  .icons i{
+    cursor: pointer;
+  }
+  #myProgressBar{
+    width: 50vw;
+    cursor: pointer;
+  }
+  .songInfo{
+    position: absolute;
+    left: 25vw;
+    margin-top: 15px;
+  }
+  .songInfo img{
+    opacity: 0;
+    transition: 1s ease-in;
+  }
+  .songInfo{
+    position: absolute;
+    left: 25vw;
+    margin-top: 15px;
+  }
+  .SongItem{
+    
+    height: 87px;
+    display: flex;
+    background-color: #2aa549;
+    color: black;
+    margin: 14px 17px;
+    align-items: center;
+    text-align: center;
+    border-radius: 27px;
+    width: 90%;
+  }
+  .SongItem img{
+    width: 130px;
+    margin: 2px;
+    border-radius: 23px;
+  }
+  .time{
+    margin: 0 23px;
+    align-items: center;
+    font-size: 16px;
+  
+  }
+  .time i{
+    cursor: pointer;
+    margin: 10px;
+    font-size: 26px;
+  }
+  .songName{
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    padding-left: 12px;
+    
+  }

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="login">
+      <ul class="sign">
+        <li class="song">
+          <img src="img/logo.jpg" alt="MusicPlayer" />Music Player
+        </li>
+        <li>
+          <a href=" https://www.youtube.com">Home</a>
+        </li>
+        <li>
+          <a href="https://gaana.com">About</a>
+        </li>
+        <li>
+          <a
+            href="https://www.quora.com/Are-musicians-naturally-talented-or-do-they-just-practice-more-How-does-this-affect-them-does-it-make-them-better-at-reading-music-How-do-I-tell-if-I-am-naturally-talented"
+            >Services</a
+          >
+        </li>
+
+        <li>
+          <a href="https://music.apple.com/us/browse">Apply</a>
+        </li>
+
+        <li>
+          <a href="https://myaccount.google.com/email">Contact US</a>
+        </li>
+        <div class="search">
+          <input
+            type="text"
+            name="myInput"
+            id="text"
+            placeholder="Search Engine"
+          />
+          <button class="btn btn-sm">Search</button>
+        </div>
+      </ul>
+    </div>
+    <div class="file">
+      <i class="fa fa-headphones" aria-hidden="true"></i>
+      <h1>Play List song</h1>
+    </div>
+    <div class="container">
+      <div class="songList">
+        <div class="SongItemContainer">
+          <div class="SongItem">
+            <img src="img/4343.jpg" alt="1" />
+            <span class="songName">Do Bol Official OST </span>
+            <span class="songListplay"
+              ><span class="time"
+                >6:24
+                <i
+                  class="far songItemPlay fa-2x fa-play-circle"
+                  aria-hidden="true"
+                ></i
+              ></span>
+            </span>
+          </div>
+          <div class="SongItem">
+            <img src="img/56.jpg" alt="1" />
+            <span class="songName">aaram ata he deedar sy </span>
+            <span class="songListplay"
+              ><span class="time"
+                >6:24
+                <i
+                  class="far songItemPlay fa-2x fa-play-circle"
+                  aria-hidden="true"
+                ></i
+              ></span>
+            </span>
+          </div>
+          <div class="SongItem">
+            <img src="img/122.jpg" alt="1" />
+            <span class="songName">kahin deep jaly</span>
+            <span class="songListplay"
+              ><span class="time"
+                >7:24
+                <i
+                  class="far songItemPlay fa-2x fa-play-circle"
+                  aria-hidden="true"
+                ></i
+              ></span>
+            </span>
+          </div>
+          <div class="SongItem">
+            <img src="img/Deewangi.png" alt="1" />
+            <span class="songName">Kaise tere khdgerzy </span>
+            <span class="songListplay"
+              ><span class="time"
+                >4:24
+                <i
+                  class="far songItemPlay fa-2x fa-play-circle"
+                  aria-hidden="true"
+                ></i
+              ></span>
+            </span>
+          </div>
+          <div class="SongItem">
+            <img src="img/44.jpg" alt="1" />
+            <span class="songName">Khaani </span>
+            <span class="songListplay"
+              ><span class="time"
+                >6:54
+                <i
+                  class="far songItemPlay fa-2x fa-play-circle"
+                  aria-hidden="true"
+                ></i
+              ></span>
+            </span>
+          </div>
+          <div class="SongItem">
+            <img src="img/444.jpg" alt="1" />
+            <span class="songName"> khudgerz </span>
+            <span class="songListplay"
+              ><span class="time"
+                >6:22
+                <i
+                  class="far songItemPlay fa-2x fa-play-circle"
+                  aria-hidden="true"
+                ></i
+              ></span>
+            </span>
+          </div>
+          <div class="SongItem">
+            <img src="img/555.jpg" alt="1" />
+            <span class="songName"> me wo Duniya ho jaha tere </span>
+            <span class="songListplay"
+              ><span class="time"
+                >5:22
+                <i
+                  class="far songItemPlay fa-2x fa-play-circle"
+                  aria-hidden="true"
+                ></i
+              ></span>
+            </span>
+          </div>
+          <div class="SongItem">
+            <img src="img/16.jpg" alt="1" />
+            <span class="songName">mera yar milady </span>
+            <span class="songListplay"
+              ><span class="time"
+                >7:44
+                <i
+                  class="far songItemPlay fa-2x fa-play-circle"
+                  aria-hidden="true"
+                ></i
+              ></span>
+            </span>
+          </div>
+          <div class="SongItem">
+            <img src="img/65.jpg" alt="1" />
+            <span class="songName"> merey pass tum ho </span>
+            <span class="songListplay"
+              ><span class="time"
+                >4:24
+                <i
+                  class="far songItemPlay fa-2x fa-play-circle"
+                  aria-hidden="true"
+                ></i
+              ></span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="botton">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <i class="fas fa-3x fa-step-backward" aria-hidden="true"></i>
+        <i
+          class="far fa-3x fa-play-circle"
+          id="masterPlay"
+          aria-hidden="true"
+        ></i>
+        <i class="fas fa-3x fa-step-forward" aria-hidden="true"></i>
+      </div>
+      <div class="songInfo">
+        <img src="img/ifect.gif" width="48px" id="gif" />
+        <span id="masterSongName">Do Bol Official OST</span>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
